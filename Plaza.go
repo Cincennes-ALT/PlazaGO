@@ -13,9 +13,11 @@ func main() {
 	CurrentSong()
 }
 
+// struct of the current number
+type SongNow 
+
 // gets the current song
 func CurrentSong() {
-	getAPIEredmeny := json.Marshal(GetAPI("status", "", "json"))
 
 }
 

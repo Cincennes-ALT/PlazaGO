@@ -60,7 +60,7 @@ func currentSong(gotSatus map[string]string) {
 	album := songMeta.album
 	// albumCover := songMeta.albumCover
 
-	fmt.Printf("Currently playing: %s by %s from %s", title, artist, album)
+	fmt.Printf("Currently playing: %s by %s from %s\n", title, artist, album)
 }
 
 /*
